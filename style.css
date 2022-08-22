@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+HK:wght@200;300&display=swap");
+
+body,
+html {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: Poppins;
+  font-weight: 300px;
+  background-color: #faf7fd;
+  font-size: 18px;
+}
+
+nav {
+  display: flex;
+  width: 300px;
+  margin: 0 auto;
+  padding: 0px;
+}
+ul {
+  list-style-type: none;
+  padding: 0%;
+  margin: auto;
+}
+li {
+  border: 2px #bb99dd solid;
+  display: flex;
+  width: 210px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+a {
+  margin: auto;
+  color: #bb99dd;
+  text-decoration: none;
+}
+
+.assest {
+  display: flex;
+  margin: 0 auto;
+  width: 300px;
+  justify-content: center;
+}
+
+svg {
+  margin: 50px 10px;
+  padding: 0%;
+}
+
+.borda {
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 50%;
+  border: #bb99dd solid;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  justify-content: center;
+}
+
+img {
+  margin: 5px;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+}
+.insta {
+  display: block;
+  text-align: center;
+  color: #bb99dd;
+  margin: 6px;
+}
